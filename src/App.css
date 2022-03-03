@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+}
+
+.App-header > section {
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-booking-time {
+  display: inline-block;
+  width: 400px;
+}
+
+.App-booking-duration {
+  display: inline-block;
+  width: 80px;
+}
+
+.App-booking-user {
+  display: inline-block;
+  width: 80px;
+}
+
+.App-sections {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.not-overlap-legend {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.overlap-legend {
+  color: red;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+
+button:hover {
+  transform: translate(0, -2px);
+}
+
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+button[disabled]:hover {
+  transform: none;
+}
+
+.upload-button {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+}

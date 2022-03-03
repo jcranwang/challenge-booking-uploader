@@ -1,0 +1,26 @@
+.App-booking-timeline {
+  position: relative;
+  margin: 30px auto;
+  width: 30px;
+  background-color: purple;
+  border-radius: 15px;
+}
+
+.App-day-segment {
+  position: relative;
+  height: 720px;
+}
+
+.timeline-date {
+  position: absolute;
+  top: 0;
+  margin: 0;
+}
+
+.timeline-date.left {
+  left: -100px;
+}
+
+.timeline-date.right {
+  right: -100px;
+}

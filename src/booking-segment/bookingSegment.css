@@ -1,0 +1,15 @@
+.App-booking-segment {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.MuiPopover-paper {
+  padding: 20px;
+}
